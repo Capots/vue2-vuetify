@@ -1,8 +1,7 @@
 export default {
-    userInfo: {
-        id: '',
-        username: '',
-        password: '',
-    },
+    userInfo: {},
+    user:{
+        data:[]
+    }
 
 }

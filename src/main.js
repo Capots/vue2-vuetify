@@ -3,8 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
+import MyFormData from './scripts/formdata';
 
 Vue.config.productionTip = false
+Vue.use(MyFormData);
 
 new Vue({
   router,
